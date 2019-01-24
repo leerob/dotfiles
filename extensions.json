@@ -1,0 +1,24 @@
+{
+    // code --list-extensions
+    "recommendations": [
+        "bierner.markdown-preview-github-styles",
+        "Compulim.vscode-clock",
+        "dbaeumer.vscode-eslint",
+        "dsznajder.es7-react-js-snippets",
+        "eamodio.gitlens",
+        "earshinov.sort-lines-by-selection",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-rename-tag",
+        "iZDT.javascript-unit-test-snippet",
+        "jpoissonnier.vscode-styled-components",
+        "legfrey.javascript-test-runner",
+        "msjsdiag.debugger-for-chrome",
+        "NuclleaR.vscode-extension-auto-import",
+        "PeterJausovec.vscode-docker",
+        "robertohuertasm.vscode-icons",
+        "shyykoserhiy.vscode-spotify",
+        "silvenon.mdx",
+        "zhuangtongfa.Material-theme",
+        "Zignd.html-css-class-completion"
+    ]
+}
