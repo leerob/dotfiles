@@ -1,5 +1,3 @@
-cd ~/Developer
-
 alias upgrade="yarn upgrade-interactive --latest"
 export ZSH="/Users/lrobinson/.oh-my-zsh"
 ZSH_THEME="robbyrussell"

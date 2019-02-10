@@ -114,7 +114,11 @@ module.exports = {
     copyOnSelect: false,
 
     // if `true` (without backticks and without quotes), hyper will be set as the default protocol client for SSH
-    defaultSSHApp: true
+    defaultSSHApp: true,
+
+    hypercwd: {
+      initialWorkingDirectory: '~/Developer'
+    }
 
     // if `true` (without backticks and without quotes), on right click selected text will be copied or pasted if no
     // selection is present (`true` by default on Windows and disables the context menu feature)
@@ -132,7 +136,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hyper-statusline", "hyper-chesterish", "hyper-tabs-enhanced"],
+  plugins: ["hyper-statusline", "hyper-chesterish", "hyper-tabs-enhanced", "hypercwd"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
