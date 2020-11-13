@@ -1,13 +1,9 @@
-alias upgrade="yarn upgrade-interactive --latest"
-export ZSH="/Users/lrobinson/.oh-my-zsh"
+PATH="/usr/local/bin:$(getconf PATH)"
+export ZSH="/Users/leerobinson/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 
-plugins=(
-  git,
-  osx
-)
-
 source $ZSH/oh-my-zsh.sh
+plugins=(git osx)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -34,3 +30,12 @@ function precmd() {
 
 DISABLE_AUTO_TITLE="true"
 precmd
+
+alias headers="curl -I -s -X GET"
+alias ls="ls -la"
+alias mkdir="mkdir -p"
+alias server="python -m SimpleHTTPServer 8000"
+alias sourcerc="source ~/.bash_profile && source ~/.zshrc"
+alias usebash="chsh -s /bin/bash"
+alias usezsh="chsh -s /bin/zsh"
+alias yarnu="yarn upgrade-interactive --latest"
